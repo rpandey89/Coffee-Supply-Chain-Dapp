@@ -23,9 +23,24 @@ These instructions will get you a copy of the project up and running on your loc
 
 Please make sure you've already installed ganache-cli, Truffle and enabled MetaMask extension in your browser.
 
+Running the following commands should display the versions of ganache and truffle respectively in the terminal
+
 ```
-Give examples (to be clarified)
+ganache-cli --version
 ```
+
+```
+truffle version
+```
+
+If metamask extension is installed and enabled in the browser you should be able to see something like this:
+![Metamask Browser](images/Metamask_Browser.png)
+
+If any of the software is not installed the installation steps are given at:
+
+[Ganache](https://github.com/trufflesuite/ganache-cli/blob/master/README.md)
+[Truffle](https://truffleframework.com/docs/truffle/getting-started/installation)
+[Metamask](https://metamask.io/)
 
 ### Installing
 
@@ -52,7 +67,7 @@ ganache-cli -m "spirit supply whale amount human item harsh scare congress disco
 
 Your terminal should look something like this:
 
-![truffle test](images/ganache-cli.png)
+![Ganache CLI](images/ganache-cli.png)
 
 In a separate terminal window, Compile smart contracts:
 
@@ -62,7 +77,7 @@ truffle compile
 
 Your terminal should look something like this:
 
-![truffle test](images/truffle_compile.png)
+![truffle compile](images/truffle_compile.png)
 
 This will create the smart contract artifacts in folder ```build\contracts```.
 
@@ -74,7 +89,7 @@ truffle migrate
 
 Your terminal should look something like this:
 
-![truffle test](images/truffle_migrate_development.png)
+![truffle migrate](images/truffle_migrate_development.png)
 
 Test smart contracts:
 
@@ -108,6 +123,7 @@ npm run dev
 * [Truffle Framework](http://truffleframework.com/) - Truffle is the most popular development framework for Ethereum with a mission to make your life a whole lot easier.
 * [Ganache](https://truffleframework.com/ganache) - Ganache quickly fires up a personal Ethereum blockchain which you can use to run tests, execute commands, and inspect state while controlling how the chain operates.
 * [Infura](https://infura.io/) - Provides easy to use API and developer tools provide secure, reliable, and scalable access to Ethereum and IPFS. We provide the infrastructure for your decentralized applications so you can focus on the features.
+* [Metamask](https://metamask.io/)
 * Libraries
   * lite-server
   * truffle
