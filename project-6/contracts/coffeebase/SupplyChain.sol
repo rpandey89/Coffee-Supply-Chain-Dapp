@@ -151,16 +151,16 @@ contract SupplyChain is Ownable, Consumer, Distributor, Retailer, Farmer {
   function harvestItem(uint _upc, address _originFarmerID, string _originFarmName, string _originFarmInformation, string  _originFarmLatitude, string  _originFarmLongitude, string  _productNotes) public onlyFarmer
   {
     // Add the new item as part of Harvest
-    items[upc] = Item({
+    items[_upc] = Item({
       sku: sku,
-      upc: upc,
+      upc: _upc,
       ownerID: _originFarmerID,
       originFarmerID: _originFarmerID,
       originFarmName: _originFarmName,
       originFarmInformation: _originFarmInformation,
       originFarmLatitude: _originFarmLatitude,
       originFarmLongitude: _originFarmLongitude,
-      productID: sku + upc,
+      productID: sku + _upc,
       productNotes: _productNotes,
       productPrice: 0,
       itemState: State.Harvested,

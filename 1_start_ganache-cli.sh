@@ -1,1 +1,1 @@
-ganache-cli -m "spirit supply whale amount human item harsh scare congress discover talent hamster"
+ganache-cli -m "doll source together survey box meat assist green sand conduct ostrich ginger"
