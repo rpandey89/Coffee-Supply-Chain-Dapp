@@ -1,4 +1,4 @@
-../node_modules
+**/node_modules
 *.iml
-.DS_Store
-../build
+**/.DS_Store
+**/build
