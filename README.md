@@ -107,7 +107,7 @@ In a separate terminal window, launch the DApp:
 npm run dev
 ```
 
-#Architecture
+## Architecture
 
 ![Activity](images/Coffee-Supply-Chain-Activity.jpg)
 
