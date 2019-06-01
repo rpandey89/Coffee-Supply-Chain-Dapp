@@ -113,7 +113,7 @@ npm run dev
 
 ![Sequence](images/Coffee-Supply-Chain-Sequence.jpg)
 
-![State](images/Coffee-Supply-Chain-State.jpg)
+![State](images/Coffee-Supply-chain-State.jpg)
 
 ![Class](images/Coffee-Supply-Chain-Class.jpg)
 
